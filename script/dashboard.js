@@ -158,10 +158,7 @@ function mostrarMensajeAleatorio() {
     mensajeTexto.textContent = mensajeAleatorio;
 }
 
-// Mostrar un mensaje aleatorio al cargar la página
 mostrarMensajeAleatorio();
-
-// Cambiar mensaje al hacer clic en el botón
 nuevoMensajeBtn.addEventListener("click", mostrarMensajeAleatorio);
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -196,8 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// JavaScript para mostrar la sorpresa
 document.getElementById('sorpresa-btn').addEventListener('click', function() {
     const contenido = document.getElementById('sorpresa-content');
-    contenido.classList.toggle('hidden'); // Muestra u oculta la sorpresa
+    contenido.classList.toggle('hidden'); 
 });
